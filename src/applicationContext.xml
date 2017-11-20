@@ -8,8 +8,13 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean id="myCoach" 
-		class="com.luv2code.springdemo.TrackCoach">		
+		class="com.luv2code.springdemo.BaseballCoach">		
 	</bean>
+	
+	<bean id="tenisCoach" 
+		class="com.luv2code.springdemo.TenisCoach">		
+	</bean>
+	
 
     
 </beans>
